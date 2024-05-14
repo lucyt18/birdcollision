@@ -1,0 +1,208 @@
+/* styles.css */
+
+body {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background: #f4f4f4;
+    padding: 1rem; /* Add padding to the body for overall margin */
+}
+
+header {
+    background: #8AA399; /* Sage green */
+    color: #fff;
+    padding: 1rem 0;
+    margin-bottom: 1rem; /* Add margin below the header */
+}
+
+header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 1rem; /* Add padding to the container for spacing */
+}
+
+header h1 {
+    margin: 0;
+    font-size: 1.5rem;
+    font-family: 'Lora', serif;
+}
+
+header nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+header nav ul li {
+    margin-left: 1rem;
+}
+
+header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    font-family: 'Lora', serif;
+}
+
+header nav ul li a:hover {
+    text-decoration: underline;
+}
+
+.hero {
+    position: relative;
+    height: 60vh;
+    color: #fff;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgba(0, 0, 0, 0.5);
+    margin-bottom: 2rem; /* Add margin below the hero section */
+}
+
+.video-container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+#heroVideo {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    opacity: 0.7;
+}
+
+.hero-content {
+    position: relative;
+    z-index: 1;
+    padding: 1rem; /* Add padding for spacing inside hero-content */
+}
+
+.hero h2 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+    font-family: 'Lora', serif;
+}
+
+.hero p {
+    font-size: 1.2rem;
+    margin-bottom: 1.5rem;
+}
+
+.hero .btn {
+    background: #87CEEB; /* Sky blue */
+    color: #fff;
+    padding: 0.7rem 1.5rem;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+.hero .btn:hover {
+    background: #69b7d1;
+}
+
+.features {
+    padding: 2rem 0;
+    background: #fff;
+    margin-bottom: 2rem; /* Add margin below the features section */
+}
+
+.features .container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 0 1rem; /* Add padding to the container for spacing */
+}
+
+.features h2 {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 2rem;
+    font-family: 'Lora', serif;
+}
+
+.feature-item {
+    background: #f9f9f9;
+    border-radius: 10px;
+    padding: 1.5rem;
+    text-align: center;
+    margin: 1rem;
+    flex: 1;
+    max-width: 300px;
+}
+
+.feature-item h3 {
+    margin-top: 0;
+    font-family: 'Lora', serif;
+    color: #8AA399; /* Sage green */
+    margin-bottom: 1rem; /* Add margin below the feature-item heading */
+}
+
+.feature-item p {
+    color: #666;
+}
+
+.about {
+    padding: 2rem 0;
+    background: #fff;
+    margin-bottom: 2rem; /* Add margin below the about section */
+}
+
+.about .container {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 0 2rem; /* Add padding to the container for spacing */
+}
+
+.about h2, .about h3 {
+    font-family: 'Lora', serif;
+    color: #8AA399; /* Sage green */
+    margin-top: 0;
+    margin-bottom: 1rem; /* Add margin below the headings */
+}
+
+.about p {
+    color: #666;
+    margin-bottom: 1.5rem;
+}
+
+.about a {
+    color: #87CEEB; /* Sky blue */
+    text-decoration: none;
+}
+
+.about a:hover {
+    text-decoration: underline;
+}
+
+.about-image {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin: 1.5rem 0; /* Add margin around the image */
+}
+
+footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+}
+
+footer .container {
+    display: flex;
+    justify-content: center;
+    padding: 0 1rem; /* Add padding to the container for spacing */
+}
+
+footer p {
+    margin: 0;
+}
